@@ -1,0 +1,160 @@
+<html>
+<head>
+<title>Java Programs #armstrong</title>
+<link rel="stylesheet"type="text/css" href="armstrong.css">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="box1-content">
+    <div class="header">
+        <img src="image/insta3.png">
+</div>
+<h1>??What is an Armstrong Number??</h1>
+
+<div >
+    Armstrong number is a number that is equal to the sum of cubes of its digits. For example 0, 1, 153, 370, 371,etc..
+</a>
+</div>
+
+<div >
+    example:-  153=(1)cube +(5)cube +(3)cube=1+125+27=153....
+</a>
+</div>
+
+<div >
+    Thus,153 is an Armstrong Number.
+</a>
+</div>
+
+<h2>##Program:-</a>
+</h2>
+
+<div >
+    import java.util.*;
+</a>
+</div>
+
+<div >
+    class armstrong
+{
+</a>
+</div>
+
+<div >
+    static void main()
+    {
+</a>
+</div>
+
+<div >
+     Scanner sc=new Scanner(System.in);
+</a>
+</div>
+
+<div >
+        int n,i,k,s=0,n1;
+</a>
+</div>
+
+<div >
+         System.out.println("ENTER A NUMBER:-");
+       </a>
+</div>
+
+
+<div >
+         n=sc.nextInt();
+       
+</a>
+</div>
+
+<div >
+        n1=n;
+      
+</a>
+</div>
+
+<div >
+          for (;n!=0;)
+        
+</a>
+</div>
+
+<div >
+         {
+        
+</a>
+</div>
+
+<div >
+          k=(n%10)*(n%10)*(n%10);
+</a>
+</div>
+         
+<div>
+</a>
+</div>
+
+<div >
+        
+            n=n/10;
+         
+</a>
+</div>
+
+<div >
+        s+=k;
+   
+</a>
+</div>
+
+<div >
+          }
+      
+</a>
+</div>
+
+<div >
+           if(s==n1)
+     
+</a>
+</div>
+
+<div >
+           System.out.println(n1+" is an armstrong no.");
+     
+</a>
+</div>
+
+<div >
+            else
+     
+</a>
+</div>
+
+<div >
+             System.out.println(n1+" is not an armstrong no.");
+  
+</a>
+</div>
+
+<div >
+            }
+     
+</a>
+</div><div >
+    }     
+</a>
+</div>
+
+<div class="fpwd">
+<a href="jawa2.html">BACK</a>
+</div>
+
+<div>
+<h2>#suggested#   :-</h2>
+*<a href="HCF.html">HCF or GCD</a>
+</div>
+
+</body>
+</html>
